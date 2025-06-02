@@ -39,6 +39,25 @@ function Contact() {
           [SoundCloud]
         </a>
       </p>
+
+      <div
+        class="tenor-gif-embed"
+        data-postid="24609305"
+        data-share-method="host"
+        data-aspect-ratio="1.77778"
+        data-width="100%"
+      >
+        <a href="https://tenor.com/view/jackie-chan-drunken-master-drunken-fist-gif-24609305">
+          Jackie Chan Drunken Master GIF
+        </a>
+        from{" "}
+        <a href="https://tenor.com/search/jackie+chan-gifs">Jackie Chan GIFs</a>
+      </div>
+      <script
+        type="text/javascript"
+        async
+        src="https://tenor.com/embed.js"
+      ></script>
       {/* Optional: Add a contact form here */}
     </section>
   );
