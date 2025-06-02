@@ -39,7 +39,7 @@ img {
   img {
     height: 100px; /* Reduced image height */
     width: 100px; /* Reduced image width */
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 30px;
@@ -53,6 +53,8 @@ img {
 
   .about-text p {
     padding: 0.8rem; /* Reduced padding */
+    display: flex;
+    justify-content: center;
   }
 
   .aligncnt {
