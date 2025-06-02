@@ -29,16 +29,32 @@ img {
 /* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
   .about {
-    padding: 20px; /* Reduced padding */
+    padding: 15px; /* Reduced padding for mobile */
   }
 
   .about h2 {
     font-size: 1.5rem; /* Smaller heading */
   }
 
-  .about p {
+  img {
+    height: 200px; /* Reduced height for mobile */
+    width: 300px; /* Reduced width */
+  }
+
+  .about-text {
+    margin: 10px; /* Reduced margin */
     font-size: 0.9rem; /* Smaller text */
-    max-width: 100%; /* Full width on mobile */
+  }
+
+  .about-text p {
+    padding: 0.8rem; /* Reduced padding */
+  }
+
+  .aligncnt {
+    padding: 10px; /* Reduced padding */
+    gap: 10px; /* Reduced gap */
+    flex-direction: column; /* Explicitly enforce vertical stack */
+    align-items: stretch; /* Ensures text takes full width if needed */
   }
 }
 
@@ -52,7 +68,20 @@ img {
     font-size: 1.8rem;
   }
 
-  .about p {
-    max-width: 80%;
+  img {
+    height: 280px;
+    width: 400px;
+  }
+
+  .about-text {
+    margin: 15px;
+  }
+
+  .about-text p {
+    padding: 0.9rem;
+  }
+
+  .aligncnt {
+    padding: 15px;
   }
 }
