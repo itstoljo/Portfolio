@@ -32,7 +32,7 @@ function Projects() {
             old plug-ins with download links]
           </p>
           <a
-            href="https://itstoljo.github.io/"
+            href="https://bedroomproducersblog.com/
             target="_blank"
             rel="noopener noreferrer"
           >
