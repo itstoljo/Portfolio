@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "https://github.com/itstoljo/itstoljo.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
