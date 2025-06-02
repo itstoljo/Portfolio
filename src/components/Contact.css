@@ -47,7 +47,7 @@ img {
   #contact {
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: start;
     padding: 20px;
     margin-left: 1rem;
@@ -77,6 +77,18 @@ img {
 @media (max-width: 1024px) and (min-width: 769px) {
   .contact {
     padding: 30px;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 1rem;
+    /* border: dashed 2px #ffffff; */
+
+    background-color: black;
   }
 
   .contact h2 {

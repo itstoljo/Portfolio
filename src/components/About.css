@@ -37,8 +37,15 @@ img {
   }
 
   img {
-    height: 300px; /* Reduced height for mobile */
+    height: 100px; /* Reduced height for mobile */
     width: 250px; /* Reduced width */
+    display: block;
+    margin: 0 auto; /* Center image */
+    border: 2px solid #ffffff; /* Added border for visibility */
+
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
   }
 
   .about-text {
@@ -54,7 +61,7 @@ img {
     padding: 10px; /* Reduced padding */
     gap: 10px; /* Reduced gap */
     flex-direction: column; /* Explicitly enforce vertical stack */
-    align-items: stretch; /* Ensures text takes full width if needed */
+    align-items: center; /* Ensures text takes full width if needed */
     display: flex;
     justify-content: center;
     align-items: center;
