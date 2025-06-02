@@ -40,7 +40,9 @@ function Contact() {
         </a>
       </p>
 
-      <div
+      <img src="https://tenor.com/view/jackie-chan-drunken-master-drunken-fist-gif-24609305"></img>
+
+      {/* <div
         class="tenor-gif-embed"
         data-postid="24609305"
         data-share-method="host"
@@ -57,7 +59,7 @@ function Contact() {
         type="text/javascript"
         async
         src="https://tenor.com/embed.js"
-      ></script>
+      ></script> */}
       {/* Optional: Add a contact form here */}
     </section>
   );
