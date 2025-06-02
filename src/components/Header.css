@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: hsla(0, 0%, 0%, 0.541);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-radius: 3px;
+  border-bottom: 2px solid #00000054; /* Add a border */
+  box-shadow: 0 11px 5px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  /* transition: color 0.3s ease; Smooth color transition on hover */
+}
+
+/* .header h1:hover {
+  color: #000000; /* Change color on hover */
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header nav a {
+  font-weight: bold;
+  color: #000000;
+  background-color: rgb(245, 245, 245);
+  padding: 15px 25px;
+  transition: color 0.3s ease;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  color: #ff0000; /* Change link color on hover */
+  /* Smooth background color transition */
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}

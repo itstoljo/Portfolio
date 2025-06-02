@@ -1,0 +1,38 @@
+#contact {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 20px;
+  margin-left: 1rem;
+  border: dashed 2px #ffffff;
+
+  background-color: black;
+}
+
+#contact h2 {
+  color: #ff0000;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  background-color: aliceblue;
+  padding: 7px 20px;
+}
+
+#contact p {
+  color: #a8d0ff;
+  margin-bottom: 20px;
+}
+
+#contact a {
+  color: #000000;
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+#contact a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}

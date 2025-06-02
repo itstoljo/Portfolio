@@ -1,0 +1,54 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  border: dashed 2px #ffffff; /* Dashed border around the grid */
+
+  background-color: black;
+}
+
+.project-card {
+  background-color: #6b2d26; /* Matches the maroon color in your image */
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex; /* Use flexbox for internal layout */
+  flex-direction: column; /* Stack children vertically */
+  min-height: 300px; /* Set a minimum height to ensure uniformity */
+  justify-content: space-between; /* Push content to top and button to bottom */
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  margin-bottom: 20px;
+  flex-grow: 1; /* Allows the paragraph to expand and fill space */
+  overflow: hidden; /* Prevents content overflow */
+}
+
+.view-project-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #fff; /* White button */
+  color: #6b2d26; /* Matches card background for contrast */
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%; /* Full width of the card */
+  box-sizing: border-box; /* Ensure padding doesn’t affect width */
+}
+
+.view-project-btn:hover {
+  background-color: #e0e0e0; /* Light gray on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-card {
+    min-height: 250px; /* Adjust for smaller screens */
+  }
+}

@@ -1,0 +1,27 @@
+img {
+  height: 320px;
+  width: 482px;
+}
+
+.aligncnt {
+  border: 2px dashed #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+
+  background-color: black;
+}
+
+.about-text {
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 20px;
+  text-align: start;
+}
+
+.about-text p {
+  background-color: black;
+  padding: 1rem;
+}
