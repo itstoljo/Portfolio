@@ -40,15 +40,13 @@ function Contact() {
         </a>
       </p>
 
-      <img src="https://tenor.com/view/jackie-chan-drunken-master-drunken-fist-gif-24609305"></img>
-
       {/* <div
         class="tenor-gif-embed"
         data-postid="24609305"
         data-share-method="host"
         data-aspect-ratio="1.77778"
         data-width="100%"
-      >
+    
         <a href="https://tenor.com/view/jackie-chan-drunken-master-drunken-fist-gif-24609305">
           Jackie Chan Drunken Master GIF
         </a>

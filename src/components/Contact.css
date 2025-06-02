@@ -1,13 +1,18 @@
 #contact {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   margin-left: 1rem;
-  border: dashed 2px #ffffff;
+  /* border: dashed 2px #ffffff; */
 
   background-color: black;
+}
+img {
+  height: 400px;
+  width: 450px;
+  display: flex;
 }
 
 #contact h2 {
@@ -39,6 +44,18 @@
 
 /* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
+  #contact {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+    margin-left: 1rem;
+    border: dashed 2px #ffffff;
+
+    background-color: black;
+  }
+
   .contact {
     padding: 20px;
   }
