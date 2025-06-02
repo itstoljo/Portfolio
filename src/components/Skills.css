@@ -53,17 +53,17 @@ h2 {
   }
 
   .dashed-skills li {
-  border: 2px dashed #ffffff;
-  padding: 20px;
-  background-color: black;
-}
+    border: 2px dashed #ffffff;
+    padding: 20px;
+    background-color: black;
+  }
 
   .skills h2 {
     font-size: 1.5rem;
   }
 
   .skills-list {
-    flex-direction: column
+    flex-direction: column;
     align-items: center;
     gap: 8px;
   }
