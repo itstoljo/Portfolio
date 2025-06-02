@@ -37,15 +37,13 @@ img {
   }
 
   img {
-    height: 100px; /* Reduced height for mobile */
-    width: 250px; /* Reduced width */
-    display: block;
-    margin: 0 auto; /* Center image */
-    border: 2px solid #ffffff; /* Added border for visibility */
-
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    transition: transform 0.3s ease; /* Smooth scaling effect */
+    height: 100px; /* Reduced image height */
+    width: 100px; /* Reduced image width */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .about-text {
@@ -58,8 +56,6 @@ img {
   }
 
   .aligncnt {
-    padding: 10px; /* Reduced padding */
-    gap: 10px; /* Reduced gap */
     flex-direction: column; /* Explicitly enforce vertical stack */
     align-items: center; /* Ensures text takes full width if needed */
     display: flex;
@@ -67,6 +63,8 @@ img {
     align-items: center;
     align-content: center;
     background-color: black;
+    padding: 10px; /* Reduced padding for mobile */
+    gap: 10px; /* Reduced gap between items */
   }
 }
 
@@ -76,13 +74,13 @@ img {
     padding: 30px;
   }
 
-  .aligncnt {
+  /* .aligncnt 
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     background-color: black;
-  }
+  } */
 
   .about h2 {
     font-size: 1.8rem;
