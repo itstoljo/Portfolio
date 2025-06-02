@@ -52,6 +52,12 @@ h2 {
     padding: 20px;
   }
 
+  .dashed-skills li {
+  border: 2px dashed #ffffff;
+  padding: 20px;
+  background-color: black;
+}
+
   .skills h2 {
     font-size: 1.5rem;
   }
