@@ -1,28 +1,17 @@
 img {
   height: 320px;
   width: 482px;
-  object-fit: cover; /* Ensures the image scales properly without distortion */
-  display: block; /* Removes any inline spacing issues */
-  margin: 0 auto; /* Centers the image */
-}
-
-.about {
-  text-align: center;
-  background-color: black; /* Matches your background */
-  padding: 40px;
-  border: 2px dashed #ffffff; /* Matches your aligncnt border */
-  border-radius: 10px; /* Optional: Adds rounded corners */
 }
 
 .aligncnt {
-  display: flex;
-  flex-direction: column; /* Stacks image and text vertically */
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  background-color: black;
   border: 2px dashed #ffffff;
-  padding: 20px; /* Added padding for better spacing */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+
+  background-color: black;
 }
 
 .about-text {
@@ -30,67 +19,40 @@ img {
   font-size: 1rem;
   margin: 20px;
   text-align: start;
+}
 
-  .about-text p {
-    background-color: black;
-    padding: 1rem;
+.about-text p {
+  background-color: black;
+  padding: 1rem;
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .about {
+    padding: 20px; /* Reduced padding */
   }
 
-  /* Mobile (max-width: 768px) */
-  @media (max-width: 768px) {
-    .about {
-      padding: 15px; /* Reduced padding for mobile */
-    }
-
-    .about h2 {
-      font-size: 1.5rem; /* Smaller heading */
-    }
-
-    img {
-      height: 200px; /* Reduced image height for mobile */
-      width: 300px; /* Reduced image width */
-    }
-
-    .about-text {
-      margin: 10px; /* Reduced margin */
-      font-size: 0.9rem; /* Smaller text */
-    }
-
-    .about-text p {
-      padding: 0.8rem; /* Reduced padding */
-    }
-
-    .aligncnt {
-      padding: 10px; /* Reduced padding */
-      gap: 10px; /* Reduced gap */
-    }
+  .about h2 {
+    font-size: 1.5rem; /* Smaller heading */
   }
 
-  /* Tablet (max-width: 1024px) */
-  @media (max-width: 1024px) and (min-width: 769px) {
-    .about {
-      padding: 30px;
-    }
+  .about p {
+    font-size: 0.9rem; /* Smaller text */
+    max-width: 100%; /* Full width on mobile */
+  }
+}
 
-    .about h2 {
-      font-size: 1.8rem;
-    }
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .about {
+    padding: 30px;
+  }
 
-    img {
-      height: 280px; /* Slightly reduced height */
-      width: 400px; /* Slightly reduced width */
-    }
+  .about h2 {
+    font-size: 1.8rem;
+  }
 
-    .about-text {
-      margin: 15px;
-    }
-
-    .about-text p {
-      padding: 0.9rem;
-    }
-
-    .aligncnt {
-      padding: 15px;
-    }
+  .about p {
+    max-width: 80%;
   }
 }
