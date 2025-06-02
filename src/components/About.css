@@ -37,8 +37,8 @@ img {
   }
 
   img {
-    height: 200px; /* Reduced height for mobile */
-    width: 300px; /* Reduced width */
+    height: 300px; /* Reduced height for mobile */
+    width: 250px; /* Reduced width */
   }
 
   .about-text {
@@ -55,6 +55,11 @@ img {
     gap: 10px; /* Reduced gap */
     flex-direction: column; /* Explicitly enforce vertical stack */
     align-items: stretch; /* Ensures text takes full width if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
   }
 }
 
@@ -62,6 +67,14 @@ img {
 @media (max-width: 1024px) and (min-width: 769px) {
   .about {
     padding: 30px;
+  }
+
+  .aligncnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
   }
 
   .about h2 {
