@@ -25,3 +25,34 @@ img {
   background-color: black;
   padding: 1rem;
 }
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .about {
+    padding: 20px; /* Reduced padding */
+  }
+
+  .about h2 {
+    font-size: 1.5rem; /* Smaller heading */
+  }
+
+  .about p {
+    font-size: 0.9rem; /* Smaller text */
+    max-width: 100%; /* Full width on mobile */
+  }
+}
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .about {
+    padding: 30px;
+  }
+
+  .about h2 {
+    font-size: 1.8rem;
+  }
+
+  .about p {
+    max-width: 80%;
+  }
+}

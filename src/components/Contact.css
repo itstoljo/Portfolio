@@ -36,3 +36,33 @@
   background-color: #000000;
   color: #ffffff;
 }
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .contact {
+    padding: 20px;
+  }
+
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact p {
+    font-size: 0.9rem;
+  }
+
+  .contact a {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .contact {
+    padding: 30px;
+  }
+
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+}
