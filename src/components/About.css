@@ -1,19 +1,36 @@
+/* Image styling */
 img {
   height: 320px;
   width: 482px;
+  max-width: 100%; /* Ensures image never exceeds container width */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Scales image while preserving aspect ratio */
+  display: block; /* Removes inline spacing */
+  margin: 0 auto; /* Centers the image */
 }
 
+/* Container for the About section */
+.about {
+  text-align: center;
+  background-color: black;
+  padding: 40px;
+  border: 2px dashed #ffffff;
+  border-radius: 10px;
+}
+
+/* Align container (wrapper for image and text) */
 .aligncnt {
   border: 2px dashed #ffffff;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row; /* Stacks image above text by default */
+  justify-content: center;
   align-items: center;
-  align-content: center;
   gap: 20px;
-
   background-color: black;
+  padding: 20px;
 }
 
+/* Text styling */
 .about-text {
   color: #ffffff;
   font-size: 1rem;
@@ -37,13 +54,9 @@ img {
   }
 
   img {
-    height: 100px; /* Reduced image height */
-    width: 100px; /* Reduced image width */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100%; /* Takes full width of container */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 300px; /* Caps width for smaller screens */
   }
 
   .about-text {
@@ -53,20 +66,14 @@ img {
 
   .about-text p {
     padding: 0.8rem; /* Reduced padding */
-    display: flex;
-    justify-content: center;
   }
 
   .aligncnt {
+    padding: 10px; /* Reduced padding */
+    gap: 10px; /* Reduced gap */
     flex-direction: column; /* Explicitly enforce vertical stack */
-    align-items: center; /* Ensures text takes full width if needed */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: black;
-    padding: 10px; /* Reduced padding for mobile */
-    gap: 10px; /* Reduced gap between items */
+    align-items: center; /* Center items */
+    justify-content: center; /* Center content vertically if needed */
   }
 }
 
@@ -76,14 +83,6 @@ img {
     padding: 30px;
   }
 
-  /* .aligncnt 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: black;
-  } */
-
   .about h2 {
     font-size: 1.8rem;
   }
@@ -91,6 +90,8 @@ img {
   img {
     height: 280px;
     width: 400px;
+    max-width: 100%; /* Ensures it fits container */
+    height: auto;
   }
 
   .about-text {
