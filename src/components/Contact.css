@@ -48,10 +48,7 @@ img {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    padding: 20px;
-    margin-left: 1rem;
-    border: dashed 2px #ffffff;
+    align-items: center;
 
     background-color: black;
   }
