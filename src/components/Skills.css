@@ -85,4 +85,14 @@ h2 {
   .skills-list {
     gap: 8px;
   }
+
+  a {
+    font-weight: bold;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-decoration: none;
+    border-radius: 1px;
+    padding: 10px;
+    color: #000000;
+  }
 }

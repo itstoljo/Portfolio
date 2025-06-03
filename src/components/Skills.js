@@ -6,7 +6,7 @@ function Skills() {
     <section id="skills">
       <h2>Skills</h2>
       <div className="skills-container">
-        <div class="dashed-skills">
+        <div className="dashed-skills">
           <ul className="skills-list">
             <li>[DJ-ing]</li>
             <li>[Music Production]</li>

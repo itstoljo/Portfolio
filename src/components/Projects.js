@@ -20,7 +20,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="view-project-btn">View Project</div>
+            <div className="view-project-btn">View Project</div>
           </a>
         </div>
         {/* Add more project-card divs as needed */}
@@ -36,7 +36,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="view-project-btn">View Project</div>
+            <div className="view-project-btn">View Project</div>
           </a>
         </div>
 
@@ -52,7 +52,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="view-project-btn">View Project</div>
+            <div className="view-project-btn">View Project</div>
           </a>
         </div>
       </div>
