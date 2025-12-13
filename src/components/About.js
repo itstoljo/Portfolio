@@ -11,7 +11,7 @@ function About() {
           <img
             src="https://images.pexels.com/photos/2071882/pexels-photo-2071882.jpeg"
             alt="Cat Image"
-          ></img>
+          />
           <div className="about-text">
             <p>
               {/* Hello! My name is Matej Tolić, and I am a passionate web developer

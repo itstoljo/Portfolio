@@ -12,7 +12,6 @@
 img {
   height: 400px;
   width: 450px;
-  display: flex;
 }
 
 #contact h2 {
@@ -45,7 +44,7 @@ img {
 /* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
   #contact {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -54,42 +53,26 @@ img {
     background-color: black;
   }
 
-  .contact {
-    padding: 20px;
-  }
-
-  .contact h2 {
+  #contact h2 {
     font-size: 1.5rem;
   }
 
-  .contact p {
+  #contact p {
     font-size: 0.9rem;
   }
 
-  .contact a {
+  #contact a {
     font-size: 0.9rem;
   }
 }
 
 /* Tablet (max-width: 1024px) */
 @media (max-width: 1024px) and (min-width: 769px) {
-  .contact {
+  #contact {
     padding: 30px;
   }
 
-  #contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin-left: 1rem;
-    /* border: dashed 2px #ffffff; */
-
-    background-color: black;
-  }
-
-  .contact h2 {
+  #contact h2 {
     font-size: 1.8rem;
   }
 }

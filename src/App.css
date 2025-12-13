@@ -44,10 +44,7 @@ a {
   color: #000000;
 }
 
-/* a:hover { */
-/* color: rgb(194, 134, 255);
-  background-color: black;
-  text-decoration: underline; */
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

@@ -1,6 +1,6 @@
 /* Image styling */
 img {
-  height: 320px;
+
   width: 482px;
   max-width: 100%; /* Ensures image never exceeds container width */
   height: auto; /* Maintains aspect ratio */

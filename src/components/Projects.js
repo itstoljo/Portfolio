@@ -8,7 +8,7 @@ function Projects() {
       <div className="projects-grid">
         <div className="project-card">
           <h3>[Delay Calculator (BPM)]</h3>
-          <br></br>
+          <br />
           <p>
             [Simple delay calculator made with ChatGPT. It calculates the delay
             in milliseconds based on the BPM (Beats Per Minute) input. This tool
@@ -26,7 +26,7 @@ function Projects() {
         {/* Add more project-card divs as needed */}
         <div className="project-card">
           <h3>[Plug-ins Blog]</h3>
-          <br></br>
+          <br />
           <p>
             [This is a blog that shows recent audio-production news and archives
             old plug-ins with download links]
@@ -42,7 +42,7 @@ function Projects() {
 
         <div className="project-card">
           <h3>[Printables]</h3>
-          <br></br>
+          <br />
           <p>
             [This is a collection of my 3D models that I have created over the
             years.]
