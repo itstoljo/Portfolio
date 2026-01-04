@@ -1,23 +1,29 @@
 import React from "react";
-import "./Header.css"; // Assuming you have a Projects.css file for styling
+import { Link } from "react-router-dom";
+import "./Header.css";
 
 function Header() {
   return (
     <header className="header">
-      <h1>Matej Tolić</h1>
+      <h1>
+        <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>Matej Tolić</Link>
+      </h1>
       <nav>
         <ul>
           <li>
-            <a href="#about">About</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="/#about">About</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="/#projects">Projects</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link to="/mixing-mastering">Mixing & Mastering</Link>
+          </li>
+          <li>
+            <a href="/#contact">Contact</a>
           </li>
         </ul>
       </nav>

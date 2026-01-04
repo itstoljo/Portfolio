@@ -27,6 +27,11 @@ h1,
 h2 {
   color: #ffffff;
 }
+h1 a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+}
 
 li {
   list-style: none;
@@ -43,8 +48,6 @@ a {
   padding: 10px;
   color: #000000;
 }
-
-
 
 /* Responsive Design */
 @media (max-width: 768px) {

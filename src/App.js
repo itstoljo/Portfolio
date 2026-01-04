@@ -1,21 +1,20 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+import Home from "./components/Home";
+import MixingMastering from "./components/MixingMastering";
 
 function App() {
   return (
-    <div className="app">
-      <Header />
-      <main>
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-      </main>
-    </div>
+    <Router>
+      <div className="app">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/mixing-mastering" element={<MixingMastering />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
