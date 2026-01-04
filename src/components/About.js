@@ -23,13 +23,13 @@ function About() {
               creative flair, which allows me to approach projects with a fresh
               perspective. I am always eager to collaborate on exciting projects
               and contribute to innovative solutions. */}
-              Hello! My name is Matej Tolić, and I am a music producer and web
-              developer based in Slovenia. With over 10 years of experience as a
-              DJ, I’ve developed a unique blend of technical expertise and
-              refined taste that allows me to approach every project with a
-              fresh perspective. I specialize in music production, mixing,
-              mastering, and web development. I am always eager to collaborate
-              on exciting projects and contribute to innovative solutions.
+              Hello! My name is Matej Tolić, and I am a music producer and
+              mixing engineer based in Slovenia. With over 10 years of
+              experience as a DJ, I’ve developed a unique blend of technical
+              expertise and refined taste that allows me to approach every
+              project with a fresh perspective. I specialize in music
+              production, mixing, mastering. I am always eager to collaborate on
+              exciting projects and contribute to innovative solutions.
             </p>
           </div>
         </div>
