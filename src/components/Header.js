@@ -6,7 +6,9 @@ function Header() {
   return (
     <header className="header">
       <h1>
-        <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>Matej Tolić</Link>
+        <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
+          Matej Tolić
+        </Link>
       </h1>
       <nav>
         <ul>
@@ -20,7 +22,16 @@ function Header() {
             <a href="/#projects">Projects</a>
           </li>
           <li>
-            <Link to="/mixing-mastering">Mixing & Mastering</Link>
+            <Link
+              to="/mixing-mastering"
+              style={{
+                color: "#ffffffff",
+                backgroundColor: "#6b2d26",
+                border: "2px solid #ffffffff",
+              }}
+            >
+              Mixing & Mastering
+            </Link>
           </li>
           <li>
             <a href="/#contact">Contact</a>

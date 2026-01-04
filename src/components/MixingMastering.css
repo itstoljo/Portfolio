@@ -132,55 +132,61 @@
 }
 
 .price-item {
-    background-color: var(--mm-accent-maroon);
-    padding: 30px;
-    border-radius: 10px;
-    width: 280px;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
-    border: 2px solid transparent; /* Reserve space for border */
+  background-color: var(--mm-accent-maroon);
+  padding: 30px;
+  border-radius: 10px;
+  width: 280px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+  border: 2px solid transparent; /* Reserve space for border */
 }
 
 .price-item:hover {
-    transform: translateY(-5px);
-    background-color: #7d352e; /* Slightly lighter maroon */
+  transform: translateY(-5px);
+  background-color: #7d352e; /* Slightly lighter maroon */
 }
 
 .price-item.featured {
-    border: 2px solid #ffffff;
-    transform: scale(1.05);
+  border: 2px solid #ffffff;
+  transform: scale(1.05);
 }
 
 .price-item.featured:hover {
-    transform: scale(1.05) translateY(-5px);
+  transform: scale(1.05) translateY(-5px);
 }
 
 .price-item.selected {
-    background-color: #ffffff;
-    color: #000000;
-    border: 2px solid var(--mm-accent-maroon);
-    transform: scale(1.08);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid var(--mm-accent-maroon);
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
 }
 
 .price-item.selected .price,
 .price-item.selected h4,
 .price-item.selected p {
-    color: #000000;
+  color: #000000;
 }
 
 .price-item.selected .service-features li::before {
-    color: var(--mm-accent-maroon);
+  color: var(--mm-accent-maroon);
 }
 
 .selection-actions {
-    margin-top: 40px;
-    animation: fadeIn 0.5s ease-in;
+  margin-top: 40px;
+  animation: fadeIn 0.5s ease-in;
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .price {
   font-size: 2.5rem;
@@ -204,7 +210,7 @@
 
 .cta-button-outline {
   border: 2px solid var(--mm-text-light);
-  color: var(--mm-text-maroon-dark: );
+  color: var(--mm-text-maroon-dark);
   padding: 12px 30px;
   border-radius: 5px;
   text-decoration: none;
