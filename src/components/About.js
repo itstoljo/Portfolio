@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./About.css"; // Assuming you have an About.css file for styling
+import catImage from "../images/cat.png";
 
 function About() {
   return (
@@ -8,10 +9,7 @@ function About() {
       <h2>About Me</h2>
       <div className="about-container">
         <div className="aligncnt">
-          <img
-            src="https://images.pexels.com/photos/2071882/pexels-photo-2071882.jpeg"
-            alt="Cat Image"
-          />
+          <img src={catImage} alt="Cat Image" />
           <div className="about-text">
             <p>
               {/* Hello! My name is Matej Tolić, and I am a passionate web developer
