@@ -2,8 +2,8 @@
   "name": "portfolio",
   "version": "1.0.0",
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -24,11 +24,11 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@craco/craco": "^7.1.0"
-  },
   "overrides": {
     "svgo": "^4.0.0",
     "postcss": "^8.4.31"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1"
   }
 }

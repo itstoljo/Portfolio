@@ -1,5 +1,7 @@
-nmodule.exports = {
-  devServer: {
+module.exports = function override(config, env) {
+  // Add devServer configuration
+  config.devServer = {
+    ...config.devServer,
     setupMiddlewares: (middlewares, devServer) => {
       if (!devServer) {
         throw new Error("webpack-dev-server is not defined");
@@ -17,5 +19,7 @@ nmodule.exports = {
 
       return middlewares;
     },
-  },
+  };
+
+  return config;
 };
