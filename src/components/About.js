@@ -41,7 +41,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="photo-credit">
+      <p className="photo-credit">
         Photo by{" "}
         <a href="https://unsplash.com/@fakurian?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
           Milad Fakurian
@@ -50,7 +50,7 @@ function About() {
         <a href="https://unsplash.com/photos/a-black-and-white-photo-of-wavy-lines-XnkLo3xc960?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
           Unsplash
         </a>
-      </div>
+      </p>
     </section>
   );
 }

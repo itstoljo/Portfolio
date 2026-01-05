@@ -27,7 +27,7 @@ function Header() {
               style={{
                 color: "#ffffffff",
                 backgroundColor: " 	#44624a",
-                border: "2px solid #ffffffff",
+                border: "2px solid #000000ff",
               }}
             >
               Mixing & Mastering

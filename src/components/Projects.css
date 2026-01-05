@@ -43,7 +43,9 @@
 }
 
 .view-project-btn:hover {
-  background-color: #e0e0e0; /* Light gray on hover */
+  background-color: #000000; /* Light gray on hover */
+  color: aliceblue;
+  transition: background-color 0.1s ease;
 }
 
 /* Responsive adjustments */

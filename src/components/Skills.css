@@ -34,7 +34,8 @@ h2 {
 }
 
 .skills-list li:hover {
-  background-color: #6b2d26;
+  background-color: #000000;
+  color: aliceblue;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }

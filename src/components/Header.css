@@ -15,7 +15,7 @@
 .header h1 {
   font-size: 1.8rem;
   color: #ffffff;
-  /* transition: color 0.3s ease; Smooth color transition on hover */
+  /* transition: color 0.1s ease; Smooth color transition on hover */
 }
 
 .header nav ul {
@@ -29,13 +29,14 @@
   color: #000000;
   background-color: rgb(245, 245, 245);
   padding: 15px 25px;
-  transition: color 0.3s ease;
+  transition: color 0.1s ease;
   border-radius: 5px;
   text-decoration: none;
 }
 
 .header nav a:hover {
-  color: #ff0000; /* Change link color on hover */
+  color: #ffffff; /* Change link color on hover */
+  background-color: #000000;
   /* Smooth background color transition */
 }
 
@@ -86,5 +87,11 @@
 
   .header nav ul {
     gap: 15px;
+  }
+
+  .mixing-mastering-link:hover {
+    border: 2px solid aliceblue;
+    color: black;
+    background-color: aliceblue;
   }
 }
