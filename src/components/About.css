@@ -1,5 +1,5 @@
 /* Image styling */
-img {
+.aligncnt img {
   width: 482px;
   max-width: 100%; /* Ensures image never exceeds container width */
   height: auto; /* Maintains aspect ratio */
@@ -52,7 +52,7 @@ img {
     font-size: 1.5rem; /* Smaller heading */
   }
 
-  img {
+  .aligncnt img {
     width: 100%; /* Takes full width of container */
     height: auto; /* Maintains aspect ratio */
     max-width: 300px; /* Caps width for smaller screens */
@@ -86,7 +86,7 @@ img {
     font-size: 1.8rem;
   }
 
-  img {
+  .aligncnt img {
     height: 280px;
     width: 400px;
     max-width: 100%; /* Ensures it fits container */
@@ -104,5 +104,14 @@ img {
 
   .aligncnt {
     padding: 15px;
+  }
+  .photo-credit {
+    padding: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    border-top: 1px solid #ffffff;
+    margin-top: 20px;
   }
 }

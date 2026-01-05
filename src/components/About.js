@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./About.css"; // Assuming you have an About.css file for styling
-import catImage from "../images/cat.png";
+import dRender from "../images/abstrract.jpg";
 
 function About() {
   return (
@@ -9,7 +9,14 @@ function About() {
       <h2>About Me</h2>
       <div className="about-container">
         <div className="aligncnt">
-          <img src={catImage} alt="Cat Image" />
+          <img
+            src={dRender}
+            alt="3D Render"
+            width="482"
+            height="254"
+            style={{ maxWidth: "100%", height: "auto" }}
+          />
+
           <div className="about-text">
             <p>
               {/* Hello! My name is Matej Tolić, and I am a passionate web developer
@@ -33,6 +40,16 @@ function About() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="photo-credit">
+        Photo by{" "}
+        <a href="https://unsplash.com/@fakurian?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+          Milad Fakurian
+        </a>{" "}
+        on{" "}
+        <a href="https://unsplash.com/photos/a-black-and-white-photo-of-wavy-lines-XnkLo3xc960?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+          Unsplash
+        </a>
       </div>
     </section>
   );
