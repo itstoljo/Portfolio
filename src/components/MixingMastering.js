@@ -50,7 +50,7 @@ const MixingMastering = () => {
           <h1>Sonic Clarity & Depth</h1>
           <p>
             Professional Mixing & Mastering services tailored to elevate your
-            sound. Experience industry-standard quality with a personal touch.
+            sound. Experience great quality with a personal touch.
           </p>
           <a href="#packages" className="cta-button">
             View Packages
@@ -67,6 +67,22 @@ const MixingMastering = () => {
         </p>
       </section>
 
+      <section className="mm-gear">
+        <h2>DAW & GEAR</h2>
+        <p>
+          We are using Ableton Live and Reaper as our main DAWs, along with a
+          selection of high-quality plugins from Pulsar, FabFilter, iZotope,
+          Kiive and Universal Audio to ensure top-notch sound qualit. Remember,
+          great tools are just part of the equation, it’s the skill and
+          experience behind them that truly makes the difference.
+        </p>
+        <p>
+          Monitoring is done on calibrated studio headphones and referencing
+          trought various virtual room simulations to ensure mixes translate
+          well across different listening environments.
+        </p>
+      </section>
+
       <section className="mm-services">
         <div className="service-card">
           <h3>Mixing</h3>
@@ -77,6 +93,8 @@ const MixingMastering = () => {
           <ul className="service-features">
             <li>Unlimited Stems</li>
             <li>Vocal Tuning</li>
+            <li>Eq & Compression</li>
+            <li>Dynamic Processing</li>
             <li>Creative FX</li>
           </ul>
         </div>
@@ -87,7 +105,8 @@ const MixingMastering = () => {
             playback systems, achieving competitive loudness and tonal balance.
           </p>
           <ul className="service-features">
-            <li>Analog & Digital Chain</li>
+            <li>Digital Chain</li>
+            <li>Steinberg Wavelab</li>
             <li>Loudness Optimization</li>
             <li>Metadata Encoding</li>
           </ul>

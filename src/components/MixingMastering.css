@@ -208,6 +208,15 @@
   background-color: var(--mm-bg);
 }
 
+.mm-gear {
+  font-size: 1.2rem;
+  margin: 20px;
+  padding: 40px 20px;
+  border: var(--mm-dashed-border);
+  border-radius: 10px;
+  background-color: var(--mm-accent-matcha);
+}
+
 .cta-button-outline {
   border: 2px solid var(--mm-text-light);
   color: var(--mm-text-matcha-dark);

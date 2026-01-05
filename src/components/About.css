@@ -1,6 +1,5 @@
 /* Image styling */
 img {
-
   width: 482px;
   max-width: 100%; /* Ensures image never exceeds container width */
   height: auto; /* Maintains aspect ratio */
@@ -100,6 +99,7 @@ img {
 
   .about-text p {
     padding: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .aligncnt {
