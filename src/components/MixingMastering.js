@@ -7,17 +7,17 @@ const MixingMastering = () => {
   const plans = [
     {
       id: "stereo",
-      name: "Stereo Mastering",
-      price: "$40",
+      name: "2-Track Mixing",
+      price: "$100",
       sub: "/ track",
-      desc: "Perfect for finished mixes.",
+      desc: "Perfect when there is only a 2-track beat available.",
     },
     {
       id: "mixing",
       name: "Full Mixing",
       price: "$150",
       sub: "/ track",
-      desc: "Includes Mastering.",
+      desc: "Includes song feedback.",
     },
     {
       id: "stem",
@@ -70,11 +70,13 @@ const MixingMastering = () => {
       <section className="mm-gear">
         <h2>DAW & GEAR</h2>
         <p>
-          We are using Ableton Live and Reaper as our main DAWs, along with a
-          selection of high-quality plugins from Pulsar, FabFilter, iZotope,
-          Kiive and Universal Audio to ensure top-notch sound qualit. Remember,
-          great tools are just part of the equation, it’s the skill and
-          experience behind them that truly makes the difference.
+          We are using Ableton Live and Reaper as our main DAWs, with a
+          selection of high-quality plugins from Pulsar, PSP, FabFilter,
+          iZotope, Kiive and Universal Audio to ensure top-notch sound quality.
+          <p>
+            Remember, great tools are just part of the equation, it’s the skill
+            and experience behind them that truly makes the difference.
+          </p>
         </p>
         <p>
           Monitoring is done on calibrated studio headphones and referencing
@@ -126,7 +128,7 @@ const MixingMastering = () => {
       </section>
 
       <section className="mm-pricing" id="packages">
-        <h2>Simple Pricing</h2>
+        <h2>Mixing Services</h2>
         <p>Select a package to get started</p>
         <div className="pricing-grid">
           {plans.map((plan) => (
