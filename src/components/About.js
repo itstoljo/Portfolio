@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./About.css"; // Assuming you have an About.css file for styling
-import dRender from "../images/abstrract.jpg";
+import dRender from "../images/redblackblue.png";
 
 function About() {
   return (
@@ -41,16 +41,6 @@ function About() {
           </div>
         </div>
       </div>
-      <p className="photo-credit">
-        Photo by{" "}
-        <a href="https://unsplash.com/@fakurian?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-          Milad Fakurian
-        </a>{" "}
-        on{" "}
-        <a href="https://unsplash.com/photos/a-black-and-white-photo-of-wavy-lines-XnkLo3xc960?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-          Unsplash
-        </a>
-      </p>
     </section>
   );
 }
