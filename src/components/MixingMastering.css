@@ -147,7 +147,9 @@ body {
 
 .price-item:hover {
   transform: translateY(-5px);
-  background-color: #44624a; /* Slightly lighter maroon */
+  background-color: #000000;
+  color: aliceblue;
+
 }
 
 .price-item.featured {
