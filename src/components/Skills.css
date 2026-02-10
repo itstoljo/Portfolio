@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   gap: 10px;
   list-style: none;
-  background-color: #44624a;
+  background-color: #272757;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -17,7 +17,7 @@
 }
 
 .skills-list li {
-  background-color: #44624a;
+  background-color: #272757;
   color: #fff;
   font-weight: bold;
   margin: 15px 10px;
