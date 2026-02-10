@@ -26,7 +26,7 @@ function Header() {
               to="/mixing-mastering"
               style={{
                 color: "#ffffffff",
-                backgroundColor: " 	#44624a",
+                backgroundColor: " 	#272757",
                 border: "2px solid #000000ff",
               }}
             >
