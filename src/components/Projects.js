@@ -10,7 +10,7 @@ function Projects() {
           <h3>[Delay Calculator (BPM)]</h3>
           <br />
           <p>
-            [Simple delay calculator made with ChatGPT. It calculates the delay
+            [Simple delay calculator made with Gemini. It calculates the delay
             in milliseconds based on the BPM (Beats Per Minute) input. This tool
             is useful for musicians and audio engineers to synchronize their
             effects and beats.]
