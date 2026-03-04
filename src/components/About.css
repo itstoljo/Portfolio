@@ -17,9 +17,10 @@
   border-radius: 10px;
 }
 
+
 /* Align container (wrapper for image and text) */
 .aligncnt {
-  border: 2px dashed #ffffff;
+ /*border: 2px dashed #ffffff;*/ /* Optional dashed border for debugging */
   display: flex;
   flex-direction: row; /* Stacks image above text by default */
   justify-content: center;
@@ -35,11 +36,15 @@
   font-size: 1rem;
   margin: 20px;
   text-align: start;
+  font-kerning: none;
+
 }
 
 .about-text p {
-  background-color: black;
   padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+
 }
 
 /* Mobile (max-width: 768px) */
@@ -60,7 +65,7 @@
 
   .about-text {
     margin: 10px; /* Reduced margin */
-    font-size: 0.9rem; /* Smaller text */
+  
   }
 
   .about-text p {

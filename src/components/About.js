@@ -36,8 +36,14 @@ function About() {
               expertise and refined taste that allows me to approach every
               project with a fresh perspective. I specialize in music
               production, mixing, mastering. I am always eager to collaborate on
-              exciting projects and contribute to innovative solutions.
+              exciting projects and contribute to innovative solutions.<br />
+             </p>
+
+              <p>I've started as a scratch DJ, but my passion for music quickly evolved into producing and mixing. Over the years, I’ve honed my skills in various genres, from hip-hop and electronic to rock and pop. My approach to music production is deeply rooted in creativity and attention to detail, ensuring that every track I work on is polished and sonically balanced. Whether you’re an artist looking to bring your vision to life or a band seeking that perfect mix, I’m here to help you achieve your musical goals.
             </p>
+
+             
+            
           </div>
         </div>
       </div>

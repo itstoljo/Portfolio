@@ -20,8 +20,8 @@ const MixingMastering = () => {
       desc: "Includes song feedback.",
     },
     {
-      id: "stem",
-      name: "Stem Mastering",
+      id: "Mastering",
+      name: "Mastering",
       price: "$80",
       sub: "/ track",
       desc: "Up to 5 stems.",
@@ -29,7 +29,7 @@ const MixingMastering = () => {
   ];
 
   const getMailtoLink = () => {
-    const email = "matej.tolic1@gmail.com"; // Replace with your actual email
+    const email = "matej.tolic1@gmail.com"; 
     const subject = selectedPlan
       ? `Inquiry for ${plans.find((p) => p.id === selectedPlan).name}`
       : "Inquiry for Mixing & Mastering Services";
@@ -71,8 +71,7 @@ const MixingMastering = () => {
         <h2>DAW & GEAR</h2>
         <p>
           We are using Ableton Live and Reaper as our main DAWs, with a
-          selection of high-quality plugins from Pulsar, PSP, FabFilter,
-          iZotope, Kiive and Universal Audio to ensure top-notch sound quality.
+          selection of high-quality plugins to ensure top-notch sound quality.
           <p>
             Remember, great tools are just part of the equation, it’s the skill
             and experience behind them that truly makes the difference.
@@ -108,7 +107,6 @@ const MixingMastering = () => {
           </p>
           <ul className="service-features">
             <li>Digital Chain</li>
-            <li>Steinberg Wavelab</li>
             <li>Loudness Optimization</li>
             <li>Metadata Encoding</li>
           </ul>
